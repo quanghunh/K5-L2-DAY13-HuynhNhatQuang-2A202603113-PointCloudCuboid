@@ -36,9 +36,9 @@ Tám frame lướt:
 
 | Vật | Frame, idx | Class | Mũi tên yaw đúng hướng? | Đáy chạm đường? | Đã kiểm Top/Side/Front + ảnh? | Kích thước trong bảng 4.3? |
 |---|---|---|---|---|---|---|
-| (a) xe con gần | s01f30#2 (Car, cách 8,13 m, 1587 điểm, ở phía sau bên phải xe thu) | Car | Nháp: yaw 272,5°, cùng chiều xe thu (≈ 270°), cần mở lại xem mũi tên có chỉ đúng đầu xe | Nháp: z đáy −1,565 m, gần mặt đường (≈ −1,7 m) | Nháp: đã xem Top/Side/Front và ảnh cam, cần xác nhận lại | Có: 4,597 × 1,900 × 1,400 m trong khoảng sedan (3,8–5,0 × 1,70–1,90 × 1,40–1,60 m), rộng 1,90 m sát mép |
-| (b) xe buýt hoặc xe tải | s01f30#6 (Truck, cách 30,8 m, 310 điểm, occluded; bảng A không có Bus) | Truck | Nháp: yaw 89,7° (ngược chiều xe thu), cần xác nhận mũi tên | Nháp: z đáy −1,905 m, thấp hơn mặt đường ~0,2 m, cần kiểm lại ở Side | Nháp: cần xác nhận lại | Nháp: 6,3 × 2,3 × 2,4 m, cần đối chiếu dòng Truck trong bảng 4.3 |
-| (c) người đi bộ hoặc xe hai bánh | s01f50#8 (Cyclist, cách 10,1 m, 443 điểm, bên phải xe thu) | Cyclist | Nháp: yaw 269,8°, cùng chiều xe thu, cần xác nhận | Nháp: z đáy −1,304 m, cao hơn mặt đường ~0,4 m, cần kiểm lại ở Side | Nháp: cần xác nhận lại | Có: 1,847 × 0,646 × 1,654 m trong khoảng xe đạp có người (1,6–1,9 × 0,50–0,70 × 1,60–1,90 m) |
+| (a) xe con gần | s01f30#2 (Car, cách 8,13 m, 1587 điểm, ở phía sau bên phải xe thu) | Car | yaw 272,5°, cùng chiều xe thu (≈ 270°), cần mở lại xem mũi tên có chỉ đúng đầu xe | z đáy −1,565 m, gần mặt đường (≈ −1,7 m) | Đã xem Top/Side/Front và ảnh cam, cần xác nhận lại | 4,597 × 1,900 × 1,400 m trong khoảng sedan (3,8–5,0 × 1,70–1,90 × 1,40–1,60 m), rộng 1,90 m sát mép |
+| (b) xe buýt hoặc xe tải | s01f30#6 (Truck, cách 30,8 m, 310 điểm, occluded; bảng A không có Bus) | Truck |  yaw 89,7° (ngược chiều xe thu), cần xác nhận mũi tên | z đáy −1,905 m, thấp hơn mặt đường ~0,2 m, cần kiểm lại ở Side | Cần xác nhận lại | 6,3 × 2,3 × 2,4 m, cần đối chiếu dòng Truck trong bảng 4.3 |
+| (c) người đi bộ hoặc xe hai bánh | s01f50#8 (Cyclist, cách 10,1 m, 443 điểm, bên phải xe thu) | Cyclist | yaw 269,8°, cùng chiều xe thu, cần xác nhận | z đáy −1,304 m, cao hơn mặt đường ~0,4 m, cần kiểm lại ở Side | Cần xác nhận lại | 1,847 × 0,646 × 1,654 m trong khoảng xe đạp có người (1,6–1,9 × 0,50–0,70 × 1,60–1,90 m) |
 
 
 ## 4. Bốn hiện tượng chất lượng (Bước 4)
